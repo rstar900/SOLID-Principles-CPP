@@ -1,2 +1,12 @@
 # SOLID-Principles-Cpp
-Example of C++ code to demonstrate SOLID Principles.  
+Example of C++ code to demonstrate SOLID Principles. <Work in Progress>
+<br><br>
+**S** => **S**ingle responsibility principle
+<br>
+**O** => **O**pen closed principle
+<br>
+**L** => **L**iskov substitution principle
+<br>
+**I** => **I**nterface segregation principle
+<br>
+**D** => **D**ependency inversion principle
