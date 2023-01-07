@@ -4,6 +4,13 @@ each class does one thing and only have one reason to
 change (i.e. the served functionality)
 */
 
+/*
+The idea here is to have a separate class for each functionality
+so for example, if we add validation and display functionality into
+person class, then this class will have 3 reasons to change its source code
+(change in person, validation or display class). But we want 1 reason to change.
+*/
+
 #include <iostream>
 
 class Person
@@ -20,6 +27,7 @@ public:
 
     int getAge() { return this->age; }
 };
+
 
 class ValidatePerson
 {
@@ -40,6 +48,7 @@ public:
         return (p.getName().size() >= 3);
     }
 };
+
 
 class DisplayPerson
 {
@@ -68,12 +77,6 @@ public:
     }
 };
 
-/*
-The idea here is to have a separate class for each functionality
-so for example, if we add validation and display functionality into
-person class, then this class will have 3 reasons to change its source code
-(change in person, validation or display class). But we want 1 reason to change.
-*/
 
 int main()
 {
