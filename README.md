@@ -1,4 +1,4 @@
-# SOLID-Principles-Cpp
+# SOLID-Principles-CPP
 Example of C++ code to demonstrate SOLID Principles. <Work in Progress>
 <br><br>
 **S** => **S**ingle responsibility principle
