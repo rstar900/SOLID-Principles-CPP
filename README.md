@@ -12,4 +12,8 @@ Example of C++ code to demonstrate SOLID Principles. <Work in Progress>
 **D** => **D**ependency inversion principle
 <br>
 <br>
-Inspiration taken from https://www.freecodecamp.org/news/solid-principles-for-programming-and-software-design/
+Inspiration taken from:
+<ol>
+  <li>https://www.freecodecamp.org/news/solid-principles-for-programming-and-software-design/</li>
+  <li>https://www.vishalchovatiya.com/open-closed-principle-in-cpp-solid-as-a-rock/</li>
+</ol>
